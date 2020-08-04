@@ -14,5 +14,5 @@
     </div>
 </div>
 
-<button class="btn btn-primary btn-lg mt-5" wire:click="refresh">Refresh</button>
+<button class="btn btn-primary btn-lg mt-5" wire:click="fetchStats">Refresh</button>
 </div>

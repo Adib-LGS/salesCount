@@ -14,14 +14,14 @@ class SalesDashboard extends Component
 
     public $satisfactions;
 
-    protected $listeners = ['fetchStats' => 'refresh'];
+    protected $listeners = ['fetchStats'];
 
     public function mount()
     {
         return $this->assignStats();
     }
 
-    public function refresh()
+    public function fetchStats()
     {
         return $this->assignStats();
     }

@@ -1,4 +1,4 @@
-<div>
+<div wire:poll.5s>
 <div class="row border border-dark rounded">
     <div class="col-md-4 border-dark border-right bg-white text-primary py-5 rounded-left">
         <strong class="h1 font-weight-bold">{{ $newOrders }}</strong>
@@ -14,5 +14,5 @@
     </div>
 </div>
 
-<button class="btn btn-primary btn-lg mt-5" wire:click="fetchStats">Refresh</button>
+<button class="btn btn-primary btn-lg mt-5" wire:click="$refresh">Refresh</button>
 </div>

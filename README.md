@@ -1,6 +1,6 @@
-##Sales Count DashBoard
+## Sales Count DashBoard
 
-##Using Livewire Library
+## Using Livewire Library
 
 ## Using LiveWire components + mount && render AND refresh methods update new sales every seconds
 

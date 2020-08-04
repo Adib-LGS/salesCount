@@ -75,10 +75,5 @@
             </div>
         </div>
         @livewireScripts
-        <script>
-            setInterval(function() {
-                window.livewire.emit('fetchStats');
-            }, 5000);
-        </script>
     </body>
 </html>
